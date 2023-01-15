@@ -1,0 +1,71 @@
+
+body {
+    
+    background-color: black;
+}
+
+.body-wrapper {
+    display: flex;
+    flex-direction:row;
+    max-width: 900px;
+}
+.girlsGrid {
+    grid-template-columns: 1fr 1fr ; 
+
+display: grid;
+gap: 50px;
+
+}
+.meow {
+    color: white;
+    text-decoration: none;
+  }
+  .topmenu {
+    border: solid;
+    border-color: white;
+    margin-top: 20px;
+    margin-left: 95%;
+    left: 16;
+    display: inline-block;
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 8px;
+        background-color: none;
+  }
+  .images {
+    transition: 0.5s;
+    width: 350px;
+    
+  }
+
+.images:hover {
+    transform: scale(1.10);
+
+}
+
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.fade-in {
+    animation: fadein 1s;
+    animation-fill-mode: both;
+}
+.delay-1 { animation-delay: .1s; }
+.delay-2 { animation-delay: .2s; }
+.delay-3 { animation-delay: .3s; }
+.delay-4 { animation-delay: .4s; }
+.delay-5 { animation-delay: .5s; }
+.delay-6 { animation-delay: .6s; }
+.delay-7 { animation-delay: .7s; }
+.delay-8 { animation-delay: .8s; }
+.delay-9 { animation-delay: .9s; }
